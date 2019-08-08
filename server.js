@@ -8,9 +8,7 @@ let express = require('express'),
 
 // Connecting mongoDB
 mongoose.Promise = global.Promise;
-mongoose.connect(dbConfig.db, {
-    useNewUrlParser: true
-}).then(() => {
+mongoose.connect(dbConfig.db, { useNewUrlParser: true }).then(() => {
         console.log('Database connected')
     },
     error => {
