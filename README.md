@@ -5,4 +5,4 @@
 ### npm install
 ### node server.js
 
-### http://localhost:8080/
+### http://localhost:8080/create-student
